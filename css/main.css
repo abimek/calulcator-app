@@ -1,0 +1,66 @@
+body {
+  background: black;
+  margin: 0;
+  vertical-align: bottom;
+}
+
+.navbar {
+  background-color: white;
+  padding: .16em;
+}
+
+.navbar .container {
+  text-align: center;
+}
+
+.navbar .container .logo {
+  font-weight: bold;
+  padding: .1em 1em;
+  font-size: 2em;
+  background-color: #0474DC;
+  text-align: center;
+  color: white;
+  border-radius: 5em;
+}
+
+button {
+  background-color: #0474DC;
+  padding: .2em .2em;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  border-color: #0474DC;
+  font-size: 3em;
+}
+
+.mainsection {
+  background-color: black;
+}
+
+.mainsection .WhiteBar {
+  text-align: left;
+  background: white;
+  margin: 1em 3em;
+  border-radius: .5em;
+}
+
+.mainsection .WhiteBar .calcText {
+  font-size: .9em;
+  color: grey;
+  margin: 1em;
+  padding: .3em;
+}
+
+.mainsection .numbers {
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+/*# sourceMappingURL=main.css.map */

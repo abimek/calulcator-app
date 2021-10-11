@@ -1,0 +1,22 @@
+{
+  "name": "calulcator-app",
+  "version": "1.0.0",
+  "description": "An Electron Made Calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abimekuriya/calulcator-app.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Abimalek G. Mekuriya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abimekuriya/calulcator-app/issues"
+  },
+  "homepage": "https://github.com/abimekuriya/calulcator-app#readme"
+}
