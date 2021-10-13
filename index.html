@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+
+    <title>Calculator</title>
 </head>
 <body>
     <div class="navbar">
@@ -16,28 +17,29 @@
     <section class="mainsection">
         <div class="upperbar">
             <h1 class="WhiteBar">
-                <p class="calcText">TheCalcStuff</p>
+                <p id="equation" class="calcText">TheCalcStuff</p>
             </h1>
         </div>
         <div class="numbers">
-            <button type="button" value="1">1</button>
-            <button type="button" value="1">2</button>
-            <button type="button" value="1">3</button>
-            <button type="button" value="1">X</button>
-            <button type="button" value="1">4</button>
-            <button type="button" value="1">5</button>
-            <button type="button" value="1">6</button>
-            <button type="button" value="1">/</button>
-            <button type="button" value="1">7</button>
-            <button type="button" value="1">8</button>
-            <button type="button" value="1">9</button>
-            <button type="button" value="1">+</button>
-            <button type="button" value="1">-</button>
-            <button type="button" value="1">C</button>
-            <button class = "equals" type="button" value="1">=</button>
+            <button type="button" id="1">1</button>
+            <button type="button" id="2">2</button>
+            <button type="button" id="3">3</button>
+            <button type="button" id="x">X</button>
+            <button type="button" id="4">4</button>
+            <button type="button" id="5">5</button>
+            <button type="button" id="6">6</button>
+            <button type="button" id="/">/</button>
+            <button type="button" id="7">7</button>
+            <button type="button" id="8">8</button>
+            <button type="button" id="9">9</button>
+            <button type="button" id="+">+</button>
+            <button type="button" id="-">-</button>
+            <button type="button" id="C">C</button>
+            <button class = "equals" type="button" id="=">=</button>
         </div>
         <div class="operators">
         </div>
     </section>
+    <script src="./calc.js"></script>
 </body>
 </html>
