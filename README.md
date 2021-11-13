@@ -6,8 +6,6 @@ This is meant to be a simple react-electron application created to quickly test 
 
 > **WARNING"** This app has many bugs and has not been well tested, one such bug is the css not properly applying on the components. 
 
-### Project
-
-[image]
+### Description
 
 You type in your calculation with the predestinated operations and evaluate by interacting with the = key.
